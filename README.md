@@ -1,10 +1,10 @@
-# SDE Online Assessment
+# SDE Online Application
 
-The purpose of this program is to run as .NET console application or in docker container
+The purpose of this program is to run as .NET console application or in a docker container.
 
-- This application is developed in .NET console application, so it's required .NET framework 4.8
-- For docker it's derived from Microsoft base image as mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore-ltsc2019
-- Output as generated as result.json file.
+- This application is developed in .NET console application, so it's required .NET framework 4.8.
+- For docker it's derived from Microsoft base image as mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore-ltsc2019.
+- Output generated as result.json file.
 
 Below are the sample input file:
 
@@ -60,8 +60,8 @@ Below are the sample input file:
 ```
 
 ### Explanation / Development Enhancement  
-- We can build this application in .NET core which will give flexibility to run the app on any platform.
-- I was not able to use .NET code because of limited development environment and support.
+- We can build this application in .NET core which will give more flexibility to run the app on any platform.
+- I was not able to use .NET code because of the limited development tools & environment availability.
 
 ## Submission
 
