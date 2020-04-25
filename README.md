@@ -6,11 +6,7 @@ The purpose of this program is to run as .NET console application or in docker c
 - For docker it's derived from Microsoft base image as mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore-ltsc2019
 - Output as generated as result.json file.
 
-Development Enhancement  
-- We can build this application in .NET core which will give flexibility to run the app on any platform.
-- I was not able to use .NET code because of limited development environment and support.
-
-We can run the exec for generating the result.
+Below are the sample input file:
 
 ### Sample input
 
@@ -63,9 +59,12 @@ We can run the exec for generating the result.
 }
 ```
 
-### Explanation
-
+### Explanation / Development Enhancement  
+- We can build this application in .NET core which will give flexibility to run the app on any platform.
+- I was not able to use .NET code because of limited development environment and support.
 
 ## Submission
 
-Latest code can be find into git https://github.com/overbond/sde-test
+Questions can be find into git https://github.com/overbond/sde-test
+
+Latest code can be find into git: https://github.com/gunjangmail/sde-result
